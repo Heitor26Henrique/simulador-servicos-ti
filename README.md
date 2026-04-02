@@ -26,6 +26,3 @@ Os valores foram definidos com base em pesquisas em plataformas como 99Freelas, 
 ## 🚀 Como executar
 1. Baixe os arquivos
 2. Abra o arquivo index.html no navegador
-
-## 🌐 Acesse o projeto
-(coloque aqui o link do GitHub Pages se fizer)
