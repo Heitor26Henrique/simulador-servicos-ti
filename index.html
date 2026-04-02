@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulador de Serviços de TI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💻 Contrate um Serviço de TI</h1>
+
+<div class="container">
+
+    <div class="card">
+        <h3>Landing Page</h3>
+        <p>R$ 800</p>
+        <button onclick="adicionar('Landing Page', 800)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <h3>E-commerce</h3>
+        <p>R$ 2500</p>
+        <button onclick="adicionar('E-commerce', 2500)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <h3>API</h3>
+        <p>R$ 1000</p>
+        <button onclick="adicionar('API', 1000)">Adicionar</button>
+    </div>
+
+    <div class="card">
+        <h3>Manutenção</h3>
+        <p>R$ 300</p>
+        <button onclick="adicionar('Manutenção', 300)">Adicionar</button>
+    </div>
+
+</div>
+
+<h2>🧾 Serviços escolhidos:</h2>
+<ul id="lista"></ul>
+
+<h2>Total: R$ <span id="total">0</span></h2>
+
+<button onclick="limpar()" class="limpar">Limpar</button>
+
+<script src="script.js"></script>
+</body>
+</html>
